@@ -7,7 +7,7 @@ npm i 도 꼭 해주세요.
 jwt_token 은 충분히 복잡하게 해야 해킹 안당해요.  
 REDIS_URL은 https://redis.io/ 여기 들어가면 redis cloud 만들수있어요 그거 만들어서 링크 붙여서 쓰세여.
 
-![세팅](https://imgur.com/NWzG4zt)  
+![세팅](https://github.com/sejun3232/img/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-06-07%20153403.png)  
 
 리다이렉트는 http://localhost:3001/auth/discord/callback 로 하시고 디스코드 개발자포털에 들어가셔서 토큰,클라이언트 아이디, 클라이언트 시크릿, 리다이렉트 링크를 넣어주시면 됩니다
 
