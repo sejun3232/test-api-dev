@@ -1,0 +1,36 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "nodemon --watch . --ext ts --exec ts-node main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@fastify/jwt": "^9.1.0",
+    "@fastify/oauth2": "^8.1.2",
+    "@typescript/native-preview": "^7.0.0-dev.20250605.1",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "fastify": "^5.3.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.15.1",
+    "p-limit": "^6.2.0",
+    "redis": "^5.5.5",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/socket.io": "^3.0.1",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
