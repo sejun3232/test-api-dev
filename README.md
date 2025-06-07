@@ -5,6 +5,7 @@ npm run build 하신 다음에 npm start 하셔야 서비스 시작입니다.
 /api/user 로 가셔야 정보가 뜹니다.  
 npm i 도 꼭 해주세요.  
 jwt_token 은 충분히 복잡하게 해야 해킹 안당해요.  
+jwt 모르겠으면 콘솔에다가 node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"  이거치시고 나오는 이상한 문자들 그대로 복붙하시면 되요.
 REDIS_URL은 https://redis.io/ 여기 들어가면 redis cloud 만들수있어요 그거 만들어서 링크 붙여서 쓰세여.
 
 ![세팅](https://github.com/sejun3232/img/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-06-07%20153403.png)  
